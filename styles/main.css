@@ -8,7 +8,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   width: 800px;
   margin: auto;
-  padding-top: 15px;
+  padding: 15 50 40 50;
 }
 
 header {
@@ -18,6 +18,7 @@ header {
 }
 
 .profile-pic {
+  height: 170px;
   border-radius: 50%;
   margin: 30 30 30 0;
 }
@@ -27,7 +28,7 @@ header {
   height: 200px;
   margin: 0;
   border: none;
-  background-color: rgb(146, 165, 162);
+  background-color: rgb(168, 218, 209);
 }
 
 .blog-image {
@@ -46,6 +47,14 @@ header {
   align-items: center;
 }
 
+.boxes-container-alt {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   font-size: 3.3em;
   letter-spacing: -0.05rem;
@@ -53,7 +62,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 1.5em;
   letter-spacing: -0.03rem;
   margin-bottom: 70px;
 }
@@ -65,12 +74,103 @@ h3 {
   padding-top: 20px;
   color: white;
   font-size: 1.2em;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 hr {
   height: 2px;
   background-color: black;
-  margin-bottom: -5px;
+  margin-bottom: -3px;
   border: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: hand;
+}
+
+/* Tablet view */
+
+@media (max-width: 1000px) {
+  
+  body {
+    width: 600px;
+  }
+
+  .profile-pic {
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  .blog-box {
+    width: 296px;
+  }
+
+  .blog-image {
+    width: 296px;
+  }
+
+}
+
+/* Phone view */
+
+@media (max-width: 440px) {
+
+  .boxes-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boxes-container-alt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  body {
+    width: 380px;
+  }
+
+  .profile-pic {
+    height: 160px;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 1.4em;
+    margin-bottom: 55px;
+  }
+
+  .blog-box {
+    width: 380px;
+  }
+
+  .blog-image {
+    width: 380px;
+  }
+
 }
