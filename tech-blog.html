@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Ben's blog</title>
+  <body>
+    <h1 class="blog-page">Tech topic.</h1>
+    <h2 class="blog-sub">Display inline vs inline-block.</h2>
+    <hr>
+    <p class="opening-para">I've chosen this particular topic as it's the option that I most need to brush up on. <br>My current understanding after researching is:
+    </p>
+    <p>An inline element is designed to nestle nicely inline, amongst other elements without disrupting the space and placement of surrounding content. An example of a common inline element is a link < a > within a paragraph. This nestles in neatly has styling limitations to prevent vertical margin, padding and size adjustment causing problems for lines above and below.
+    </p>
+    <p>An inline-block element on the other hand will sit inline with other content but is free to accept all size, margin and padding adjustment, so will fit a different purpose. A regular block element, for example a header or a div, by default fills 100% of the width of the parent element that it sits within. If an inline-block property were applied to said header or a div, they would be able to have a width defined and sit side-by-side while retaining their styling properties.</p>
+    <p>A common example where inline-block is used is navigation buttons placed side-by-side. Inline-block will let these sit next to one-another while allowing style properties to size and space them as needed.</p>
+    <p>The example below is a quick and crude mock-up to show how the both act differently with surrounding content. Both have exactly the same size styling applied, though the inline-block will push out its neighbours. Note that the padding top and bottom of the inline example has blown out the grey square but not moved anything, while the height property has been ignored.</p>
+    <img class="inline-example" src="./images/inline-css.jpg" width="30%"><img class="inline-example" src="./images/inline-screenshot.png" width="70%">
+    <p>Height adjustments to inline elements (below-left) wont do much, whereas the same adjustments to inline-block elements (below-right) will.</p>
+    <img src="./images/inline-example.jpg" width="50%"><img src="./images/inline-block-example.jpg" width="50%">
+    <p class="opening-para">An analogy.. hmmmmm.
+    </p>
+    <p>Perhaps think of seats in a movie theatre. These are inline elements where it’s best not to stretch out and disrupt the next rows. You can buy 3 seats in a row if you want to some space either side but you can’t push the row in front out further.</p>
+    <p>An inline-block example might be setting up campsites in rows. One group might decide to expand their block all around and luckily there’s plenty of space for all the neighbours to move a bit. If these campsites were inline elements the neighbours would refuse to move, so would just get cross about their space being taken, resulting in a bad camping experience for all.</p>
+  </body>
+  </html>

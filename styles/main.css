@@ -2,7 +2,9 @@
 * {
   border: 1px solid black;
 } 
-*/
+Used to get a clearer picture of the box make-up of the page */
+
+
 
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -20,7 +22,7 @@ header {
 .profile-pic {
   height: 170px;
   border-radius: 50%;
-  margin: 30 30 30 0;
+  margin: 30 30 33 0;
 }
 
 .blog-box {
@@ -28,7 +30,7 @@ header {
   height: 200px;
   margin: 0;
   border: none;
-  background-color: rgb(168, 218, 209);
+  background-color: rgb(181, 220, 213);
 }
 
 .blog-image {
@@ -56,7 +58,7 @@ header {
 }
 
 h1 {
-  font-size: 3.3em;
+  font-size: 3.6em;
   letter-spacing: -0.05rem;
   line-height: 1em;
 }
@@ -69,11 +71,11 @@ h2 {
 
 h3 {
   margin-top: 0;
-  margin-left: 22px;
+  margin-left: 20px;
   margin-right: 0;
-  padding-top: 20px;
+  padding-top: 18px;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 500;
 }
 
@@ -86,7 +88,37 @@ hr {
 
 a {
   text-decoration: none;
-  cursor: hand;
+}
+
+.blog-box:hover {
+  background-color: rgb(61, 44, 67);
+}
+
+/* Blog page */
+
+.blog-page {
+  margin-top: 70px;
+}
+
+.blog-sub {
+  margin-top: 48px;
+  margin-bottom: 38px;
+}
+
+p {
+  line-height: 135%;
+  width: 95%;
+  font-size: 1em;
+}
+
+.inline-example {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.opening-para {
+  font-weight: 800;
+  font-size: 1.1em;
 }
 
 /* Tablet view */
@@ -116,6 +148,7 @@ a {
   .blog-image {
     width: 296px;
   }
+
 
 }
 
@@ -157,12 +190,13 @@ a {
 
   h1 {
     font-size: 3em;
-    margin-bottom: 15px;
+    margin-bottom: 22px;
   }
 
   h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-bottom: 55px;
+    width: 90%;
   }
 
   .blog-box {
