@@ -185,12 +185,12 @@ p {
   }
 
   body {
-    width: 78%;
+    width: 82%;
   }
 
   .profile-pic {
     height: 140px;
-    margin: 25 30 0 0;
+    margin: 25 30 5 0;
   }
 
   h1 {
@@ -201,7 +201,7 @@ p {
 
   h2 {
     font-size: 1.2em;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
     width: 90%;
   }
 
