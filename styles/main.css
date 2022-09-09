@@ -18,7 +18,7 @@ header {
 }
 
 footer {
-  height: 80px;
+  height: 30px;
 }
 
 .profile-pic {
@@ -63,6 +63,7 @@ h1 {
   font-size: 3.6em;
   letter-spacing: -0.05rem;
   line-height: 1em;
+  width: 90%;
 }
 
 h2 {
@@ -183,7 +184,7 @@ p {
   }
 
   body {
-    width: 90%;
+    width: 100%;
   }
 
   .profile-pic {
@@ -192,8 +193,9 @@ p {
   }
 
   h1 {
-    font-size: 2.7em;
+    font-size: 2.6em;
     margin-bottom: 16px;
+    width: 100%;
   }
 
   h2 {
