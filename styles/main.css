@@ -2,7 +2,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   width: 800px;
   margin: auto;
-  padding: 15 30 40 30;
+  padding: 15 30 0 30;
 }
 
 header {
@@ -13,21 +13,25 @@ header {
 
 footer {
   height: 30px;
-  padding-top: 20px;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 350,
-  'GRAD' 200,
-  'opsz' 48;
+ul {
+  list-style-type: none;
+  margin: 35 0 0 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(160 160 160);
 }
 
-.contacts {
-  margin-top: 0;
-  padding-top: 0;
+li {
   display: inline;
+  float: left;
+  padding: 14 22;
+  color: white;
+  font-size: 0.9em;
+}
+
+#contact {
   float: right;
 }
 
@@ -79,7 +83,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   letter-spacing: -0.03rem;
-  margin-bottom: 70px;
+  margin-bottom: 65px;
 }
 
 h3 {
@@ -106,6 +110,10 @@ a {
 }
 
 .blog-box:hover {
+  background-color: rgb(61, 44, 67);
+}
+
+#home:hover, #contact:hover {
   background-color: rgb(61, 44, 67);
 }
 
