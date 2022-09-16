@@ -49,6 +49,11 @@ li {
   background-color: rgb(152, 217, 204);
 }
 
+.blog-page-image {
+  width: 100%;
+  margin: 20px auto;
+}
+
 .blog-image {
   width: 398px;
   height: 200px;
@@ -109,10 +114,6 @@ a {
   color: black;
 }
 
-.bolder {
-  font-weight: 600;
-}
-
 .blog-box:hover {
   background-color: rgb(61, 44, 67);
 }
@@ -135,7 +136,11 @@ a {
 p {
   line-height: 145%;
   width: 100%;
-  font-size: 0.95em;
+  font-size: 1em;
+}
+
+.bolder {
+  font-weight: 600;
 }
 
 .inline-example {
