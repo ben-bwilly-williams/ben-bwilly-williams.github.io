@@ -111,7 +111,18 @@ hr {
 
 a {
   text-decoration: none;
-  color: black;
+}
+
+.blog-link {
+  color: rgb(61, 44, 67);
+  line-height: 300%;
+  font-weight: 600;
+  font-size: 1.05em;
+}
+
+.blog-link:hover {
+  color: rgb(152, 217, 204);
+  
 }
 
 .blog-box:hover {
